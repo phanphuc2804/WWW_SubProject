@@ -33,7 +33,7 @@
 										</h2>
 										<p>${productItem.productName}</p>
 										<a href="<c:url value="/cart/add?productID=${productItem.productID}"/>" class="btn btn-default add-to-cart"><i
-											class="fa fa-shopping-cart"></i>Add to cart</a>
+											class="fa fa-shopping-cart"></i>Thêm vào giỏ hàng</a>
 									</div>
 								</div>
 							</div>

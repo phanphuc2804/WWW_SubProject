@@ -103,19 +103,4 @@ public class ProductController {
 		session.setAttribute("inputString", input);
 		return "user/product_search";
 	}
-	
-	
-//	
-//	@GetMapping(value = "/category")
-//	public String getProductBySupplier(@RequestParam("supplierID") int supplierID, Model model) {
-////		List<Product> listProductsByCategory = productService.getAllProductByCategory(categoryID);
-////		model.addAttribute("listProductsByCategory", listProductsByCategory);
-//		List<Category> listCategories = categoryService.getAllCategory();
-//		List<Supplier> listSuppliers = supplierService.getAllSupplier();
-//		model.addAttribute("listSuppliers",listSuppliers);
-//		model.addAttribute("listCategories", listCategories);
-//		return "user/product_by_category";
-//	}
-	
-	
 }
