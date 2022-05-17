@@ -88,7 +88,7 @@
 												<td class="cart_price">
 													<p>
 														<fmt:formatNumber type="number" maxFractionDigits="3"
-															value="${orderDetailItem.product.unitPrice}" />
+															value="${orderDetailItem.unitPrice}" />
 														đ
 													</p>
 												</td>
@@ -99,7 +99,7 @@
 												<td class="cart_total">
 													<p class="cart_total_price">
 														<fmt:formatNumber type="number" maxFractionDigits="3"
-															value="${orderDetailItem.quantity * orderDetailItem.product.unitPrice}" />
+															value="${orderDetailItem.quantity * orderDetailItem.unitPrice}" />
 														đ
 													</p>
 												</td>

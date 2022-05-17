@@ -36,7 +36,7 @@ public class ProductDAOImpl implements ProductDAO {
 		if(pageID == 1) {
 			offset = 0;
 		}else {
-			offset = (pageID - 1) * 9;
+			offset = (pageID - 1) * nextRow;
 		}
 		List<ProductDTO> listProducts = new ArrayList<ProductDTO>();
 		List<Object[]> listQuery = session.createSQLQuery
